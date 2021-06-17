@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "138704028193",
+    "firebase_url": "https://fir-dua-e64bd-default-rtdb.firebaseio.com",
+    "project_id": "fir-dua-e64bd",
+    "storage_bucket": "fir-dua-e64bd.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:138704028193:android:aee0f9f4d423b1044d9960",
+        "android_client_info": {
+          "package_name": "com.example.firebasedua"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "138704028193-qvpla4pf06b7p91u1up723sft0bogcp0.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB2ZNq80t_qe4iaLdujEFuOxlDvv8K-apM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "138704028193-qvpla4pf06b7p91u1up723sft0bogcp0.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
