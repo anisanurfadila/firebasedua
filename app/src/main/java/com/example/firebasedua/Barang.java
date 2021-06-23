@@ -3,8 +3,8 @@ package com.example.firebasedua;
 import java.io.Serializable;
 
 public class Barang implements Serializable {
-    private String kode;
-    private  String nama;
+    private String kode; //kode barang
+    private  String nama, code; //key
 
     public Barang() {
     }
@@ -25,11 +25,25 @@ public class Barang implements Serializable {
         this.nama = nama;
     }
 
+    public String getCode(){
+        return code;
+    }
+
+    public  void  setCode(String code){
+        this.code = code;
+    }
+
 
     @Override
     public String toString() {
-        return " "+kode+"\n"+" "+nama;
+
+        return "Barang{"+
+                "nama='"+nama+'\''+
+                ", kode='"+kode+'\''+
+                ", code='"+code+'\''+
+                '}';
     }
+
     public  Barang(String kd, String nm){
         kode = kd;
         nama = nm;

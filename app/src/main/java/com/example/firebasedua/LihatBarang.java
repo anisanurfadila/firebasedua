@@ -47,7 +47,7 @@ public class LihatBarang extends AppCompatActivity {
                 for (DataSnapshot noteDataSnapshot : dataSnapshot.getChildren()){
 
                     Barang barang = noteDataSnapshot.getValue(Barang.class);
-                    barang.setKode(noteDataSnapshot.getKey());
+                    barang.setCode(noteDataSnapshot.getKey());
 
                     daftarBarang.add(barang);
                 }
